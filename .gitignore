@@ -1,0 +1,11 @@
+.DS_Store
+*/.DS_Store
+
+*/xcuserdata/*
+
+.scannerwork
+*.xccovarchive
+*.xccovreport
+Build
+sonarqube-generic-coverage.xml
+xcodebuild.log

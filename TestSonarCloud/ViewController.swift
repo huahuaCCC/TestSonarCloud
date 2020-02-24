@@ -19,6 +19,13 @@ class ViewController: UIViewController {
             print("Bye")
         }
     }
+    
+    func noUsedFunc() {
+    if (1 > 2) {
+        print("hello")
+    } else {
+        print("Bye")
+    }
 
 
 }

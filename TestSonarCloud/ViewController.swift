@@ -19,11 +19,6 @@ class ViewController: UIViewController {
             print("Bye")
         }
     }
-    
-    func newTestFunc() {
-         print("Bye")
-    }
-
 
 }
 

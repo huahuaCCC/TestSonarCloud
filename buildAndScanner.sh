@@ -11,6 +11,7 @@ xcodebuild test \
              -enableCodeCoverage YES \
              | xcpretty
 
+#covert to sonar report
 bash xccov-to-sonarqube-generic.sh build/Logs/Test/*.xcresult/ > sonarqube-generic-coverage.xml
 
 sonar-scanner -Dsonar.organization=huahuaccc \

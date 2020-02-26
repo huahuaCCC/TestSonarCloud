@@ -1,6 +1,7 @@
 rm -rf ./build
 rm -rf sonarqube-generic-coverage.xml
 
+
 xcodebuild test \
              -project "TestSonarCloud.xcodeproj" \
              -scheme "TestSonarCloud" \

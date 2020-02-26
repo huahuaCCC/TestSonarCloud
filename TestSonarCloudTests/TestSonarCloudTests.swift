@@ -24,6 +24,12 @@ class TestSonarCloudTests: XCTestCase {
         let degree = vc.testGetTemperature()
         XCTAssert(degree >= -5)
     }
+    
+    func testName() {
+        let vc = ViewController.init()
+        let name = vc.testGetName()
+        XCTAssertNotNil(name)
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

@@ -27,6 +27,11 @@ class ViewController: UIViewController {
     func testUnused() -> Int {
            return Int.random(in: 0..<40)
        }
+    
+    func testGetName() -> String {
+        return "Cassie"
+    }
+    
 
 }
 

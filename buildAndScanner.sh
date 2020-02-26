@@ -14,6 +14,7 @@ xcodebuild test \
 #covert to sonar report
 bash xccov-to-sonarqube-generic.sh build/Logs/Test/*.xcresult/ > sonarqube-generic-coverage.xml
 
+#scan
 sonar-scanner -Dsonar.organization=huahuaccc \
 			  -Dsonar.projectKey=huahuaCCC_TestSonarCloud   
 			  -Dsonar.sources=.   

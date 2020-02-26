@@ -19,6 +19,14 @@ class ViewController: UIViewController {
             print("Bye")
         }
     }
+    
+    func testGetTemperature() -> Int {
+        return Int.random(in: 0..<40)
+    }
+    
+    func testUnused() -> Int {
+           return Int.random(in: 0..<40)
+       }
 
 }
 

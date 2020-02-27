@@ -20,13 +20,18 @@ class ViewController: UIViewController {
         }
     }
     
-    func noUsedFunc() {
-    if (1 > 2) {
-        print("hello")
-    } else {
-        print("Bye")
+    func testGetTemperature() -> Int {
+        return Int.random(in: 0..<40)
     }
-
+    
+    func testUnused() -> Int {
+           return Int.random(in: 0..<40)
+       }
+    
+    func testGetName() -> String {
+        return "Cassie"
+    }
+    
 
 }
 

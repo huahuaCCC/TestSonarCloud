@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let person = Person.init()
         ageLabel.text = String(person.age)
-        nameLabel.text = person.name
+        nameLabel.text = person.name + self.testGetName()
     }
     
     func testGetTemperature() -> Int {

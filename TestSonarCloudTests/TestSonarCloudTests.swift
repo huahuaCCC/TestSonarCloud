@@ -30,6 +30,11 @@ class TestSonarCloudTests: XCTestCase {
         let name = vc.testGetName()
         XCTAssertNotNil(name)
     }
+    
+    func testPerson() {
+        let per = Person.init()
+        XCTAssertNotNil(per.name)
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

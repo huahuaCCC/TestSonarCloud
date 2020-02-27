@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
-    
+    @IBOutlet weak var descLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         let person = Person.init()
         ageLabel.text = String(person.age)
         nameLabel.text = person.name + self.testGetName()
+        descLabel.text = person.sayhBye()
     }
     
     func testGetTemperature() -> Int {

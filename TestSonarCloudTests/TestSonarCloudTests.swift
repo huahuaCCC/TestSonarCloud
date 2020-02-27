@@ -34,6 +34,7 @@ class TestSonarCloudTests: XCTestCase {
     func testPerson() {
         let per = Person.init()
         XCTAssertNotNil(per.name)
+        XCTAssertNotNil(per.sayhBye())
     }
 
     func testPerformanceExample() {

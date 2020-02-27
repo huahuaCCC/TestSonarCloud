@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3384032407683800BCDC79 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3384022407683800BCDC79 /* PersonModel.swift */; };
 		CB60D09D2403724E007F8575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60D09C2403724E007F8575 /* AppDelegate.swift */; };
 		CB60D09F2403724E007F8575 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60D09E2403724E007F8575 /* SceneDelegate.swift */; };
 		CB60D0A12403724E007F8575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60D0A02403724E007F8575 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB3384022407683800BCDC79 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		CB60D0992403724E007F8575 /* TestSonarCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSonarCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB60D09C2403724E007F8575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB60D09E2403724E007F8575 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				CB60D0A524037257007F8575 /* Assets.xcassets */,
 				CB60D0A724037257007F8575 /* LaunchScreen.storyboard */,
 				CB60D0AA24037257007F8575 /* Info.plist */,
+				CB3384022407683800BCDC79 /* PersonModel.swift */,
 			);
 			path = TestSonarCloud;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3384032407683800BCDC79 /* PersonModel.swift in Sources */,
 				CB60D0A12403724E007F8575 /* ViewController.swift in Sources */,
 				CB60D09D2403724E007F8575 /* AppDelegate.swift in Sources */,
 				CB60D09F2403724E007F8575 /* SceneDelegate.swift in Sources */,

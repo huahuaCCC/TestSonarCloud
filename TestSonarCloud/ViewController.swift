@@ -10,14 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        if (1 > 2) {
-            print("hello")
-        } else {
-            print("Bye")
-        }
+        let person = Person.init()
+        ageLabel.text = String(person.age)
+        nameLabel.text = person.name
     }
     
     func testGetTemperature() -> Int {

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let person = Person.init()
-        ageLabel.text = String(person.age)
+        ageLabel.text = String(person.age) + " \(self.testGetTemperature())"
         nameLabel.text = person.name + self.testGetName()
         descLabel.text = person.sayhBye()
     }

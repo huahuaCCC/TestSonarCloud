@@ -30,4 +30,8 @@ class SecondViewController: UIViewController {
     func getAddress() -> String {
         return "Shanghai"
     }
+    
+    func square( a : Int) -> Int {
+        return a * a
+    }
 }

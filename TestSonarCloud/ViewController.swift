@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         ageLabel.text = String(person.age) + " \(self.testGetTemperature())"
         nameLabel.text = person.name + self.testGetName()
         descLabel.text = person.sayhBye()
+        
+        self.title = "HOME"
+        print("Home page")
     }
     
     func testGetTemperature() -> Int {

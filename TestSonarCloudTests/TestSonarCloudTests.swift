@@ -36,6 +36,11 @@ class TestSonarCloudTests: XCTestCase {
         XCTAssertNotNil(per.name)
         XCTAssertNotNil(per.sayhBye())
     }
+    
+    func testDetail() {
+        let vc2 = SecondViewController.init()
+        XCTAssertNotNil(vc2.getBorderColor())
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

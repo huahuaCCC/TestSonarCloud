@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         descLabel.text = person.sayhBye()
         
         self.title = "HOME"
-        print("Home page")
+        print("Home page+1")
     }
     
     func testGetTemperature() -> Int {

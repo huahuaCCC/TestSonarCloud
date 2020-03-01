@@ -12,14 +12,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
-    
+    @IBOutlet weak var descLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let person = Person.init()
-        ageLabel.text = String(person.age)
+        ageLabel.text = String(person.age) + " \(self.testGetTemperature())"
         nameLabel.text = person.name + self.testGetName()
+        descLabel.text = person.sayhBye()
+        
+        self.title = "HOME"
+        print("Home page+1")
     }
     
     func testGetTemperature() -> Int {

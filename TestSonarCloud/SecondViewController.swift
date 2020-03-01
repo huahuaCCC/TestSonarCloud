@@ -26,4 +26,8 @@ class SecondViewController: UIViewController {
         let c = Int.random(in: 0..<100)
         return c % 2 == 0 ? UIColor.red : UIColor.brown
     }
+    
+    func getAddress() -> String {
+        return "Shanghai"
+    }
 }

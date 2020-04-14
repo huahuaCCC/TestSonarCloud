@@ -28,7 +28,7 @@ class SecondViewController: UIViewController {
     }
     
     func getAddress() -> String {
-        return "Shanghai"
+        return "Shanghai China"
     }
     
     func square( a : Int) -> Int {

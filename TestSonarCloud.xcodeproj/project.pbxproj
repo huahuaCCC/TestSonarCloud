@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1512DBAAC5DF01F9132F8A7F /* Pods_TestSonarCloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9D8D886D8EBBCA5388EDB0 /* Pods_TestSonarCloudTests.framework */; };
+		2350982AA8328CE2DA5F184B /* Pods_TestSonarCloudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80DB03A5E7DB66B8E8CA3D5 /* Pods_TestSonarCloudUITests.framework */; };
 		CB089228240B9F4000CCB76A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB089227240B9F4000CCB76A /* SecondViewController.swift */; };
 		CB3384032407683800BCDC79 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3384022407683800BCDC79 /* PersonModel.swift */; };
 		CB60D09D2403724E007F8575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60D09C2403724E007F8575 /* AppDelegate.swift */; };
@@ -17,6 +19,7 @@
 		CB60D0A924037257007F8575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB60D0A724037257007F8575 /* LaunchScreen.storyboard */; };
 		CB60D0B424037257007F8575 /* TestSonarCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60D0B324037257007F8575 /* TestSonarCloudTests.swift */; };
 		CB60D0BF24037257007F8575 /* TestSonarCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60D0BE24037257007F8575 /* TestSonarCloudUITests.swift */; };
+		D98A1C11D5BDC2481FE59845 /* Pods_TestSonarCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD2101B4382F5EA3EB4C69 /* Pods_TestSonarCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06B2977F90EBA999EB741B8C /* Pods-TestSonarCloudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSonarCloudTests.debug.xcconfig"; path = "Target Support Files/Pods-TestSonarCloudTests/Pods-TestSonarCloudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		331C6765F9883C726289D6D3 /* Pods-TestSonarCloudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSonarCloudTests.release.xcconfig"; path = "Target Support Files/Pods-TestSonarCloudTests/Pods-TestSonarCloudTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C678E101D3DF27487EB117F /* Pods-TestSonarCloudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSonarCloudUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestSonarCloudUITests/Pods-TestSonarCloudUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F9D8D886D8EBBCA5388EDB0 /* Pods_TestSonarCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSonarCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BD2101B4382F5EA3EB4C69 /* Pods_TestSonarCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSonarCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95366D0CCE4C083E96A5A88 /* Pods-TestSonarCloudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSonarCloudUITests.release.xcconfig"; path = "Target Support Files/Pods-TestSonarCloudUITests/Pods-TestSonarCloudUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1850EF931ABEEF3A7BA0A59 /* Pods-TestSonarCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSonarCloud.release.xcconfig"; path = "Target Support Files/Pods-TestSonarCloud/Pods-TestSonarCloud.release.xcconfig"; sourceTree = "<group>"; };
 		CB089227240B9F4000CCB76A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CB3384022407683800BCDC79 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		CB60D0992403724E007F8575 /* TestSonarCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSonarCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +63,8 @@
 		CB60D0BA24037257007F8575 /* TestSonarCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSonarCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB60D0BE24037257007F8575 /* TestSonarCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSonarCloudUITests.swift; sourceTree = "<group>"; };
 		CB60D0C024037257007F8575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD61DE1B1572C68929A5CF7A /* Pods-TestSonarCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSonarCloud.debug.xcconfig"; path = "Target Support Files/Pods-TestSonarCloud/Pods-TestSonarCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		D80DB03A5E7DB66B8E8CA3D5 /* Pods_TestSonarCloudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSonarCloudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98A1C11D5BDC2481FE59845 /* Pods_TestSonarCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1512DBAAC5DF01F9132F8A7F /* Pods_TestSonarCloudTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2350982AA8328CE2DA5F184B /* Pods_TestSonarCloudUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1905833CF5FCEA8CAB0E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BD2101B4382F5EA3EB4C69 /* Pods_TestSonarCloud.framework */,
+				5F9D8D886D8EBBCA5388EDB0 /* Pods_TestSonarCloudTests.framework */,
+				D80DB03A5E7DB66B8E8CA3D5 /* Pods_TestSonarCloudUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F6EB07450CCD23C8A9950D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD61DE1B1572C68929A5CF7A /* Pods-TestSonarCloud.debug.xcconfig */,
+				C1850EF931ABEEF3A7BA0A59 /* Pods-TestSonarCloud.release.xcconfig */,
+				06B2977F90EBA999EB741B8C /* Pods-TestSonarCloudTests.debug.xcconfig */,
+				331C6765F9883C726289D6D3 /* Pods-TestSonarCloudTests.release.xcconfig */,
+				4C678E101D3DF27487EB117F /* Pods-TestSonarCloudUITests.debug.xcconfig */,
+				B95366D0CCE4C083E96A5A88 /* Pods-TestSonarCloudUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB60D0902403724E007F8575 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +126,8 @@
 				CB60D0B224037257007F8575 /* TestSonarCloudTests */,
 				CB60D0BD24037257007F8575 /* TestSonarCloudUITests */,
 				CB60D09A2403724E007F8575 /* Products */,
+				84F6EB07450CCD23C8A9950D /* Pods */,
+				6B1905833CF5FCEA8CAB0E19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB60D0C324037257007F8575 /* Build configuration list for PBXNativeTarget "TestSonarCloud" */;
 			buildPhases = (
+				549F9F43D97465B53E97D8DC /* [CP] Check Pods Manifest.lock */,
 				CB60D0952403724E007F8575 /* Sources */,
 				CB60D0962403724E007F8575 /* Frameworks */,
 				CB60D0972403724E007F8575 /* Resources */,
+				CED77DC1BA404512795E56AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB60D0C624037257007F8575 /* Build configuration list for PBXNativeTarget "TestSonarCloudTests" */;
 			buildPhases = (
+				F0DF915B6FFEFAF79D1ECAF0 /* [CP] Check Pods Manifest.lock */,
 				CB60D0AB24037257007F8575 /* Sources */,
 				CB60D0AC24037257007F8575 /* Frameworks */,
 				CB60D0AD24037257007F8575 /* Resources */,
@@ -176,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB60D0C924037257007F8575 /* Build configuration list for PBXNativeTarget "TestSonarCloudUITests" */;
 			buildPhases = (
+				EB960031A7D2D9F317739433 /* [CP] Check Pods Manifest.lock */,
 				CB60D0B624037257007F8575 /* Sources */,
 				CB60D0B724037257007F8575 /* Frameworks */,
 				CB60D0B824037257007F8575 /* Resources */,
@@ -259,6 +304,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		549F9F43D97465B53E97D8DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSonarCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED77DC1BA404512795E56AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestSonarCloud/Pods-TestSonarCloud-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestSonarCloud/Pods-TestSonarCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB960031A7D2D9F317739433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSonarCloudUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DF915B6FFEFAF79D1ECAF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSonarCloudTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB60D0952403724E007F8575 /* Sources */ = {
@@ -440,6 +576,7 @@
 		};
 		CB60D0C424037257007F8575 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD61DE1B1572C68929A5CF7A /* Pods-TestSonarCloud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +594,7 @@
 		};
 		CB60D0C524037257007F8575 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1850EF931ABEEF3A7BA0A59 /* Pods-TestSonarCloud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +612,7 @@
 		};
 		CB60D0C724037257007F8575 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B2977F90EBA999EB741B8C /* Pods-TestSonarCloudTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +634,7 @@
 		};
 		CB60D0C824037257007F8575 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331C6765F9883C726289D6D3 /* Pods-TestSonarCloudTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +656,7 @@
 		};
 		CB60D0CA24037257007F8575 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C678E101D3DF27487EB117F /* Pods-TestSonarCloudUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +676,7 @@
 		};
 		CB60D0CB24037257007F8575 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95366D0CCE4C083E96A5A88 /* Pods-TestSonarCloudUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        detailLabel.text = "Detail Text"
+        detailLabel.text = "Detail Text "+self.getAddress()
         imgView.image = UIImage.init(named: "zzpic")
         imgView.layer.borderWidth = 2
         let color = self.getBorderColor()
@@ -29,5 +29,9 @@ class SecondViewController: UIViewController {
     
     func getAddress() -> String {
         return "Shanghai"
+    }
+    
+    func square( a : Int) -> Int {
+        return a * a
     }
 }

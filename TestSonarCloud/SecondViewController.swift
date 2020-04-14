@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        detailLabel.text = "Detail Text *** "+self.getAddress()
+        detailLabel.text = "Detail Text "+self.getAddress()
         imgView.image = UIImage.init(named: "zzpic")
         imgView.layer.borderWidth = 2
         let color = self.getBorderColor()

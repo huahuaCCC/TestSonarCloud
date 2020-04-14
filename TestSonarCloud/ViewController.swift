@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         nameLabel.text = person.name + self.testGetName()
         descLabel.text = person.sayhBye()
         
-        self.title = "HOME "
+        self.title = "HOME @#"
        
         
     }

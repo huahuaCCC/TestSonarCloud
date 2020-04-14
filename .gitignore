@@ -3,6 +3,7 @@
 
 */xcuserdata/*
 
+*.xcuserstate
 .scannerwork
 *.xccovarchive
 *.xccovreport

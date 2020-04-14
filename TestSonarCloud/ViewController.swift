@@ -36,7 +36,7 @@ class ViewController: UIViewController {
        }
     
     func testGetName() -> String {
-        return "Update on master"
+        return "Update on master !!"
     }
     
 

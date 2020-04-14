@@ -36,7 +36,7 @@ class ViewController: UIViewController {
        }
     
     func testGetName() -> String {
-        return "Cassie"
+        return "Cassie Gu"
     }
     
 

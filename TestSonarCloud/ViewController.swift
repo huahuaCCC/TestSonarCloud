@@ -22,8 +22,8 @@ class ViewController: UIViewController {
         nameLabel.text = person.name + self.testGetName()
         descLabel.text = person.sayhBye()
         
-        self.title = "HOME +3"
-        print("Home page+1 Update")
+        self.title = "HOME"
+       
         
     }
     

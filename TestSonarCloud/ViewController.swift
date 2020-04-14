@@ -35,6 +35,10 @@ class ViewController: UIViewController {
            return Int.random(in: 0..<100)
        }
     
+    func update()  {
+        
+    }
+    
     func testGetName() -> String {
         return "Cassie Gu"
     }

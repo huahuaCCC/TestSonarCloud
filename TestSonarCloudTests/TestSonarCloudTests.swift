@@ -41,7 +41,6 @@ class TestSonarCloudTests: XCTestCase {
         let vc2 = SecondViewController.init()
         XCTAssertNotNil(vc2.getBorderColor())
         XCTAssertNotNil(vc2.getAddress())
-        XCTAssert(vc2.square(a: 10) > 10)
     }
 
     func testPerformanceExample() {
